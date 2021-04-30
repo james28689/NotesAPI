@@ -42,4 +42,4 @@ def updateNote():
 
 # Runs the app, with auto-generated certs for benwilliamson.org
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug=True, ssl_context=('/etc/letsencrypt/live/benwilliamson.org/fullchain.pem', '/etc/letsencrypt/live/benwilliamson.org/privkey.pem'))
+    app.run(debug=True)
